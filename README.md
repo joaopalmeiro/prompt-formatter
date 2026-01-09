@@ -29,7 +29,7 @@ uv pip install -r requirements.txt
 ```
 
 ```bash
-python generate_prompt.py
+python generate_prompt_gemini_3.py
 ```
 
 ```bash

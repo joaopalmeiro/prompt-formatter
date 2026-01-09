@@ -10,6 +10,7 @@
 - https://llmstxt.org/domains.html
 - Documents:
   - `docs/gemini-3/gemini-3-prompting-guide.md`: https://docs.cloud.google.com/vertex-ai/generative-ai/docs/start/gemini-3-prompting-guide
+- `beautifulsoup4[lxml]==4.14.3`
 
 ### Essential tips for long context prompts
 

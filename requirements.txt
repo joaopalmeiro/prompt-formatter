@@ -1,2 +1,4 @@
+loguru==0.7.3
 mypy[faster-cache]==1.16.1
+pyperclip==1.11.0
 ruff==0.14.11
