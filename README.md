@@ -29,7 +29,7 @@ uv pip install -r requirements.txt
 ```
 
 ```bash
-python download_llms_txt.py
+python generate_prompt.py
 ```
 
 ```bash
