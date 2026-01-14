@@ -74,7 +74,23 @@ Models like Gemini can often pick up on patterns using a few examples, though yo
 
 Using examples to show the model a pattern to follow is more effective than using examples to show the model an anti pattern to avoid.
 
-{% include 'patterns-anti-patterns-table.html' %}
+#### Negative pattern example
+
+```plain
+Don't end haikus with a question:
+Haiku are fun
+A short and simple poem
+Don't you enjoy them?
+```
+
+#### Positive pattern example
+
+```plain
+Always end haikus with an assertion:
+Haiku are fun
+A short and simple poem
+A joy to write
+```
 
 ### Consistent formatting
 
