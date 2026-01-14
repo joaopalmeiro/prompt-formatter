@@ -24,9 +24,7 @@ Input is the required text in the prompt that you want the model to provide a re
     <tr>
       <th scope="row">Question</th>
       <td>
-        ```plain
-        print("hello world")
-        ```
+        <pre><code>What's a good name for a flower shop that specializes in selling bouquets of dried flowers? Create a list of 5 options with just the names.</code></pre>
       </td>
       <td>
         <pre><code>Here are 5 names for a flower shop specializing in dried flowers:
@@ -36,8 +34,37 @@ Input is the required text in the prompt that you want the model to provide a re
 3. The Petal Preserve
 4. Whispers of Wildflowers
 5. Forever Blooms</code></pre>
-</td>
-</tr>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">Task</th>
+      <td>
+        <pre><code>Give me a simple list of just the things that I must bring on a camping trip. The list should have 5 items.</code></pre>
+      </td>
+      <td>
+        <pre><code>1. **Tent:** Your shelter from the elements.
+2. **Sleeping Bag:** Stay warm and comfortable.
+3. **Sleeping Pad:** Insulation and cushioning for a good night's sleep.
+4. **Headlamp or Flashlight:** Light for nighttime activities.
+5. **First Aid Kit:** Be prepared for minor injuries.</code></pre>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">Entity</th>
+      <td>
+        <pre><code>Classify the following items as [large, small]:
+Elephant
+Mouse
+Snail</code></pre>
+      </td>
+      <td>
+        <pre><code>Here's the classification:
+
+* **Elephant:** Large
+* **Mouse:** Small
+* **Snail:** Small</code></pre>
+      </td>
+    </tr>
   </tbody>
 </table>
 
