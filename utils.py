@@ -15,3 +15,10 @@ def prepare_context(docs: Path) -> str:
     all_docs = indent("\n".join(xml_docs), " " * 2)
 
     return f"<context>\n{all_docs}\n</context>"
+
+
+def ensure_file(file: Path, content: str | None = None) -> None:
+    file.parent.mkdir(parents=True, exist_ok=True)
+
+    if not file.exists():
+        file.write_text(content if content is not None else "")

@@ -3,7 +3,7 @@ from pathlib import Path
 import pyperclip
 from loguru import logger
 
-from utils import prepare_context
+from utils import ensure_file, prepare_context
 
 DOCS = Path("docs") / "gemini-3"
 INPUT_PROMPT = Path("prompt.txt")
@@ -14,6 +14,8 @@ TASK = "Adapt the prompt to follow the guidelines."
 OUTPUT_FORMAT = "Return a single code block."
 
 if __name__ == "__main__":
+    ensure_file(INPUT_PROMPT)
+
     context = prepare_context(DOCS)
     input_prompt_content = INPUT_PROMPT.read_text().strip()
 
