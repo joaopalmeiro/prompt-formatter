@@ -24,7 +24,9 @@ Input is the required text in the prompt that you want the model to provide a re
     <tr>
       <th scope="row">Question</th>
       <td>
-        <pre><code>What's a good name for a flower shop that specializes in selling bouquets of dried flowers? Create a list of 5 options with just the names.</code></pre>
+        ```plain
+        print("hello world")
+        ```
       </td>
       <td>
         <pre><code>Here are 5 names for a flower shop specializing in dried flowers:
@@ -34,8 +36,8 @@ Input is the required text in the prompt that you want the model to provide a re
 3. The Petal Preserve
 4. Whispers of Wildflowers
 5. Forever Blooms</code></pre>
-      </td>
-    </tr>
+</td>
+</tr>
   </tbody>
 </table>
 

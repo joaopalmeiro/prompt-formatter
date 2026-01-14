@@ -14,6 +14,7 @@
 - https://dillinger.io/
 - https://www.markdownlang.com/basic/blockquotes.html#common-usage-scenarios
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/table
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/pre
 
 ### Essential tips for long context prompts
 
