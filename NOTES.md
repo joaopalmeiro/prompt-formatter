@@ -11,6 +11,9 @@
 - Documents:
   - `docs/gemini-3/gemini-3-prompting-guide.md`: https://docs.cloud.google.com/vertex-ai/generative-ai/docs/start/gemini-3-prompting-guide
 - `beautifulsoup4[lxml]==4.14.3`
+- https://dillinger.io/
+- https://www.markdownlang.com/basic/blockquotes.html#common-usage-scenarios
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/table
 
 ### Essential tips for long context prompts
 
@@ -49,4 +52,46 @@ uv venv && source .venv/bin/activate && uv pip install -r requirements.txt
 
 ```bash
 rm -rf .mypy_cache/ .ruff_cache/ .venv/
+```
+
+## Snippets
+
+```html
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Column 1</th>
+      <th scope="col">Column 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Row 1</th>
+      <td>Row 2</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+```html
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Prompt</th>
+      <th scope="col">Response</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">
+        <pre><code>
+</code></pre>
+      </th>
+      <td>
+        <pre><code>
+</code></pre>
+      </td>
+    </tr>
+  </tbody>
+</table>
 ```

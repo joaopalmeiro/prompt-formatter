@@ -12,11 +12,32 @@ An effective and efficient way to customize model behavior is to provide it with
 
 Input is the required text in the prompt that you want the model to provide a response to. Inputs can be a question that the model answers (question input), a task the model performs (task input), an entity the model operates on (entity input), or partial input that the model completes or continues (completion input).
 
-| Input type | Prompt                                                                                                                                        | Generated output                                                                                                                                                                                                                                                                             |
-| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Question   | `What's a good name for a flower shop that specializes in selling bouquets of dried flowers? Create a list of 5 options with just the names.` | `Here are 5 names for a flower shop specializing in dried flowers: 1. Everlasting Blooms 2. Dried & Delightful 3. The Petal Preserve 4. Whispers of Wildflowers 5. Forever Blooms`                                                                                                           |
-| Task       | `Give me a simple list of just the things that I must bring on a camping trip. The list should have 5 items.`                                 | `1. **Tent:** Your shelter from the elements. 2. **Sleeping Bag:** Stay warm and comfortable. 3. **Sleeping Pad:** Insulation and cushioning for a good night's sleep. 4. **Headlamp or Flashlight:** Light for nighttime activities. 5. **First Aid Kit:** Be prepared for minor injuries.` |
-| Entity     | `Classify the following items as [large, small]: Elephant Mouse Snail`                                                                        | `Here's the classification: * **Elephant:** Large * **Mouse:** Small * **Snail:** Small`                                                                                                                                                                                                     |
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Input type</th>
+      <th scope="col">Prompt</th>
+      <th scope="col">Generated output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Question</th>
+      <td>
+        <pre><code>What's a good name for a flower shop that specializes in selling bouquets of dried flowers? Create a list of 5 options with just the names.</code></pre>
+      </td>
+      <td>
+        <pre><code>Here are 5 names for a flower shop specializing in dried flowers:
+
+1. Everlasting Blooms
+2. Dried & Delightful
+3. The Petal Preserve
+4. Whispers of Wildflowers
+5. Forever Blooms</code></pre>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 #### Partial input completion
 
